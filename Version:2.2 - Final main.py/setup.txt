@@ -1,0 +1,26 @@
+#!/bin/bash
+
+python3 -m venv GPBenv
+source GPBenv/bin/activate
+python3 -m pip install -r requirements.txt
+
+# Create .env file with placeholder environment variables
+touch .env
+echo "# Poem generation using OpenAI" >> .env
+echo "OPENAI_API_KEY=" >> .env
+echo "# Poem generation using PerplexityAI" >> .env
+echo "PERPLEXITY_API_KEY=" >> .env
+echo "# Poem generation using Gemini AI Studio" >> .env
+echo "GEMINI_API_KEY=" >> .env
+echo "# Image generation using StabilityAI" >> .env
+echo "StabilityAI_API_KEY=" >> .env
+echo "# Image generation using Google Imagen2" >> .env
+echo "GOOGLE_API_KEY=" >> .env
+echo "# Image generation using LimeWire" >> .env
+echo "LimeWire_API_KEY=" >> .env
+echo "" >> .env
+echo "# Used as google cloud project id and firebase project id" >> .env
+echo "GCP_PROJECT_ID=" >> .env
+
+
+
