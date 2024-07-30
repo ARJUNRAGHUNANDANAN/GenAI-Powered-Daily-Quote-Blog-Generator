@@ -1,0 +1,21 @@
+
+# Poem generation using OpenAI
+OPENAI_API_KEY=
+# Poem generation using PerplexityAI
+PERPLEXITY_API_KEY=
+# Poem generation using Gemini AI Studio
+GEMINI_API_KEY=
+# Image generation using StabilityAI
+StabilityAI_API_KEY=
+# Image generation using Google Imagen2
+GOOGLE_API_KEY=
+# Image generation using LimeWire
+LimeWire_API_KEY=
+# Used as google cloud project id and firebase project id
+GCP_PROJECT_ID=
+# Firebase_PROJECT_ID= 
+#Not implemented a the moment, will use GCP_Project 
+
+
+
+

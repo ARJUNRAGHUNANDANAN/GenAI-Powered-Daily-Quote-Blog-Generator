@@ -1,0 +1,24 @@
+# These should comes Preinstalled with Python. 
+# os
+# subprocess
+# datetime
+# logging
+# json
+# sys
+# random
+# shutil
+#
+# dotenv does not seem to work
+
+python-dotenv==1.0.1
+typing
+pelican==4.9.1
+requests
+google-generativeai==0.7.2
+Markdown==3.6
+requests==2.32.3
+rich==13.7.1
+typing_extensions==4.12.2
+vertexai==1.60.0
+absl-py==2.1.0
+grpcio==1.60.1 # specific version to remove annoying warning mentioned here https://github.com/google-gemini/generative-ai-python/issues/486
