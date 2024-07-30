@@ -1,0 +1,20 @@
+.hero {
+    background-image: url('image/pexels-pixabay-531880.jpg');
+    /* Photo by Felix Mittermeier: https://www.pexels.com/photo/blue-and-purple-cosmic-sky-956999/*/
+    background-size: cover;
+    background-position: center;
+}
+
+.posts-section .card {
+    margin-bottom: 30px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-link:hover .card {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
