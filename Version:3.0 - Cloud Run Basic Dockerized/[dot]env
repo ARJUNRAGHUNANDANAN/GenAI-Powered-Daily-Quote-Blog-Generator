@@ -1,0 +1,20 @@
+# Poem generation using OpenAI
+OPENAI_API_KEY=
+# Poem generation using PerplexityAI
+PERPLEXITY_API_KEY=
+# Poem generation using Gemini AI Studio
+GEMINI_API_KEY=
+# Image generation using StabilityAI
+StabilityAI_API_KEY=
+# Image generation using Google Imagen2, This requires Google  credential, Restrict API to only allow what project it is allowed to run and which services it can access.
+GOOGLE_API_KEY=
+# Image generation using LimeWire
+LimeWire_API_KEY=---
+GCP_PROJECT_ID=
+
+# For POST METHOD Authentication in /generate approute.check main.py
+ADMIN_USERNAME=
+ADMIN_PASSWORD=
+
+
+

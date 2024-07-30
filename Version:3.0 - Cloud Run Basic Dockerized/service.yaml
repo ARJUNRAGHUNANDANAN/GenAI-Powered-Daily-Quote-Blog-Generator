@@ -1,0 +1,30 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: {name of cloud run deployment}
+  namespace:
+  labels:
+    cloud.googleapis.com/location: {gcp-cloud-run-location}
+
+spec:
+  template:
+    spec:
+      containers:
+        - image: gcr.io/{gcp=project-name}/{name of cloud run deployment}
+          env:
+            - name: OPENAI_API_KEY
+              value: "your_openai_api_key"
+            - name: PERPLEXITY_API_KEY
+              value: "your_perplexity_api_key"
+            - name: GEMINI_API_KEY
+              value: "your-gemini-key"
+            - name: StabilityAI_API_KEY
+              value: "your-stabiity-ai-key"
+            - name: GOOGLE_API_KEY
+              value: "google-api-key-for-imagen"
+            - name: LimeWire_API_KEY
+              value: "your-limewire-key""
+            - name: ADMIN_USERNAME
+              value: "post-request-authorization-username"
+            - name: ADMIN_PASSWORD
+              value: "post-request-authorization-password"

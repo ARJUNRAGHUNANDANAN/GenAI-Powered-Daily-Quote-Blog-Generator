@@ -1,0 +1,40 @@
+You must initialise the Pelican Quickstart program to allow _site to be generated in this directory. make _site/content , _site/content/media folders run make html and then only deloy the docker container. Need to improve this.
+
+To Build Container after above setup, do the following
+
+1. docker build -t gcr.io/{gcp-project-name}/{container-image-name} .
+2. docker push gcr.io/{gcp-project-name}/{container-image-name}
+3. gcloud run deploy {cloud-run-deployment-name} \
+    --image gcr.io/{gcp-project-name}/{container-image-name} \
+    --platform managed
+
+you can also deploy without pushing to Container Registry by running gcloud run deploy --source .
+
+Do not reupload this into github afte development without making sure you cleared redacted .env file
+
+You have the option to skip .env file step and add it in GCP Cloud Run Settings.
+
+The file testcurl.py file is not needed for anything. It can be used to test deployment's POST method at /generate by sending a post request.You can set up password in servie.yaml or in Cloud Run Environment Variables Settings.
+
+You can either use Curl or Python Requests Package
+
+Example
+
+Using CURL
+curl -X POST -u admin:password -H "Content-Type: application/json" -d '{
+  "quote_source": "QuotablesIO",
+  "poem_source": "Gemini",
+  "image_source": "LimewireImage"
+}' http://<cloud-run-deployment-url>/generate
+
+
+Using Python
+import requests
+url = 'http://<cloud-run-deployment-url>/generate'
+headers = {'Content-Type': 'application/json'}
+data = {
+    "quote_source": "QuotablesIO",
+    "poem_source": "Gemini",
+    "image_source": "LimewireImage"
+}
+response = requests.post(url, headers=headers, json=data, auth=('admin', 'password'))
