@@ -1,0 +1,6 @@
+python-dotenv
+openai
+requests
+pelican
+google-generativeai
+vertexai

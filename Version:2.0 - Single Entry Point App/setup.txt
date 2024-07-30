@@ -1,0 +1,19 @@
+#!/bin/bash
+
+python3 -m venv GPBenv
+source GPBenv/bin/activate
+python3 -m pip install -r requirements.txt
+
+# Create .env file with placeholder environment variables
+# touch .env
+# echo "OPENAI_API_KEY=\"<enter-key-here>\"" >> .env
+# echo "GCP_PROJECT_ID=\"<your-gcp-project-id>\"" >> .env
+# echo "GCP_LOCATION=\"<your-gcp-location>\"" >> .env
+# echo "LIMEWIRE_BEARER_TOKEN=\"<your-limewire-bearer-token>\"" >> .env
+# echo "bucketname=\"<cloudbucketname>\"" >> .env
+
+#touch .customize_environment
+#echo "os.environ["PATH"] = os.environ["PATH"] + f":{local_bin_path}"
+#echo $PATH
+
+
