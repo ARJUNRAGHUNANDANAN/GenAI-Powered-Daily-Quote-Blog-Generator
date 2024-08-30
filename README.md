@@ -1,15 +1,26 @@
 # GenAI-Powered-Daily-Quote-Blog-Generator
 
 ![Developed By](https://img.shields.io/badge/Developed%20By-Arjun%20Raghunandanan-blue?style=for-the-badge)
+
 ![Developed For](https://img.shields.io/badge/Developed%20For-Code%20Vipassana:%20Project%20Saadhna%20Cycle%202-green?style=for-the-badge)
 
 ![Generative AI](https://img.shields.io/badge/Generative%20AI-FF4500?style=for-the-badge)
-
 
 [![See Code Vipassana Announcement](https://img.shields.io/badge/See%20Code%20Vipassana%20Announcement-Link-lightgrey?style=for-the-badge)](https://www.linkedin.com/posts/code-vipassana_codevipassana-projectsaadhna-hackathon-activity-7223352383299272705-vCC8)
 
 [![Read Full Project Report](https://img.shields.io/badge/Read%20Full%20Project%20Report-PDF-red?style=for-the-badge)](./GenAI%20Powered%20Daily%20Quotes%20Blog%20Generator%20Full%20Report.pdf)
 
+> ---
+>
+> ## Update : Winner Announcements and Certificates 
+> [![Project Saadhna Winner](https://img.shields.io/badge/Project%20Saadhna-Winner-green)](https://medium.com/google-cloud/project-saadhna-cycle-2-is-complete-c06147b566cd)
+>
+> [![Medium Article](https://img.shields.io/badge/Medium-GENAI_Powered_Daily_Quotes_Blog_Generator-blue)](https://medium.com/google-cloud/genai-powered-daily-quotes-blog-generator-a-project-saadhna-idea-submission-journey-d09e5e5535eb)
+>
+> | Winner Message | Certificate |
+> |---|---|
+> | <img src="./winner.jpg" alt="Winner Message" width="200"> | <img src="./certificate.jpg" alt="Certificate" width="200"> |
+> ---
 
 A GenAI based solution developed with Google Cloud Technologies as an idea submission for Code Vipaassana Project Saadhna 
 
@@ -175,3 +186,4 @@ Arjun Raghunandanan
 [linkedin.com/in/arjunraghunandanan](https://www.linkedin.com/in/arjunraghunandanan/)
 
 July 2024
+
